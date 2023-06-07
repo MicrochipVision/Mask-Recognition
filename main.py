@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import load_model
 
 # Load the trained model
-model = load_model("trained_model.h5", compile=False)
+model = load_model("trained_model.h5", compile=False) #Downalod the keras model from the link: https://tinyurl.com/yc3reb7b
 
 # Load the labels
 class_names = ["Without Mask", "With Mask"]
